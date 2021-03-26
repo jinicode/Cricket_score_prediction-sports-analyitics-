@@ -1,5 +1,6 @@
 # Importing essential libraries
 from flask import Flask, render_template, request
+from flask_cors import cross_origin
 import pickle
 import numpy as np
 
